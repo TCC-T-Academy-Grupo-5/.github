@@ -180,7 +180,7 @@ Desenvolver uma plataforma que permita a busca e comparação de veículos novos
 
 ## 9. Disivão Geral de Tarefas
 - **Backend e integração com tabela FIPE:** <ins>Gabriel</ins>
-    - Responsável pela API da Tabela FIPE
+    - Integração com API da Tabela FIPE
     - Web Scraping
 - **Frontend:** <ins>Emily</ins>
     - Alertas
