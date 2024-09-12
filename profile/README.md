@@ -42,44 +42,44 @@ Desenvolver uma plataforma que permita a busca e comparação de veículos novos
 ## 4. Divisão dos Épicos
 
 ### Épico: Funcionalidades do usuário
-- **US13** - Eu, como visitante, quero criar cadastro na plataforma, para ter acesso a todas as funcionalidades exclusivas de membros
-- **US02** - Eu, como usuário logado, quero configurar alertas para ser notificado quando o preço de um veículo estiver abaixo do valor da tabela FIPE, para não precisar verificar constantemente a plataforma
-- **US03** - Eu, como usuário logado, quero adicionar veículos a minha lista de favoritos, assim poderei terei um lugar para verificar os veículos que gostei
-- **US11** - Como usuário, quero visualizar veículos por categoria (pick-up, SUV, Sedan, Hatch, Elétrico...), A busca deve ser intuitiva com cards ou algo parecido para um clique rápido.
-- **US10** - Como administrador da plataforma, quero gerenciar os veículos cadastrados, para garantir que a plataforma tenha as informações relevantes dos veículos disponíveis
-- **US12** - Como usuário logado, quero avaliar lojas de veículos, para ajudar outros usuários a tomarem decisões confiáveis ao escolherem onde comprar.
+- **US13: Cadastro de usuário** - Eu, como visitante, quero criar cadastro na plataforma, para ter acesso a todas as funcionalidades exclusivas de membros
+- **US02: Configuração de alertas de preço** - Eu, como usuário logado, quero configurar alertas para ser notificado quando o preço de um veículo estiver abaixo do valor da tabela FIPE, para não precisar verificar constantemente a plataforma
+- **US03: Adicionar veículos aos favoritos** - Eu, como usuário logado, quero adicionar veículos a minha lista de favoritos, assim poderei terei um lugar para verificar os veículos que gostei
+- **US10: Gerenciamento de veículos por administrador** - Como administrador da plataforma, quero gerenciar os veículos cadastrados, para garantir que a plataforma tenha as informações relevantes dos veículos disponíveis
+- **US11: Busca de veículos por categoria** - Como usuário, quero visualizar veículos por categoria (pick-up, SUV, Sedan, Hatch, Elétrico...), A busca deve ser intuitiva com cards ou algo parecido para um clique rápido.
+- **US12: Avaliação de lojas** - Como usuário logado, quero avaliar lojas de veículos, para ajudar outros usuários a tomarem decisões confiáveis ao escolherem onde comprar.
 
 ### Épico: Comparação, busca e análise de preços
-- **US01** - Eu, como visitante, quero buscar veículos por marca, modelo, ano e localização, para que eu possa comparar os preços em diferentes sites
-- **US04** - Eu, como usuário logado, quero selecionar dois veículos ou mais, para comparar preços e especificações
-- **US09** - Como usuário, quero comparar os preços dos veículos disponíveis com os valores da Tabela FIPE, para que eu possa tomar decisões de compra informadas
+- **US01: Busca de veículos por filtros** - Eu, como visitante, quero buscar veículos por marca, modelo, ano e localização, para que eu possa comparar os preços em diferentes sites
+- **US04: Comparação de veículos** - Eu, como usuário logado, quero selecionar dois veículos ou mais, para comparar preços e especificações
+- **US09: Comparação de preços com tabela FIPE** - Como usuário, quero comparar os preços dos veículos disponíveis com os valores da Tabela FIPE, para que eu possa tomar decisões de compra informadas
 
 ### Épico: Web scraping de sites relacionados a carros
-- **US06** - Como administrador da plataforma, quero que os dados da Tabela FIPE sejam atualizados regularmente, para que as comparações de preços estejam sempre baseadas em informações recentes
-- **US07** - Como usuário da plataforma, quero que o sistema colete os preços dos veículos de diversas lojas online, para que eu possa compará-los com a Tabela FIPE
+- **US06: Atualização de valores de acordo com a FIPE** - Como administrador da plataforma, quero que os dados da Tabela FIPE sejam atualizados regularmente, para que as comparações de preços estejam sempre baseadas em informações recentes
+- **US07: Web scraping para coletar dados** - Como usuário da plataforma, quero que o sistema colete os preços dos veículos de diversas lojas online, para que eu possa compará-los com a Tabela FIPE
 
 ### Épico: Integração com API da tabela FIPE
-- **US05** - Como desenvolvedor, quero integrar a plataforma com a API da Tabela FIPE, para que os valores de referência dos veículos estejam disponíveis para comparação.
+- **US05: Integração com tabela FIPE** - Como desenvolvedor, quero integrar a plataforma com a API da Tabela FIPE, para que os valores de referência dos veículos estejam disponíveis para comparação.
 
 ## 5. Priorização do Backlog
 
 ### Prioridade Alta:
-- **US01** - Eu, como visitante, quero buscar veículos por marca, modelo, ano e localização, para que eu possa comparar os preços em diferentes sites
-- **US13** - Eu, como visitante, quero criar cadastro na plataforma, para ter acesso a todas as funcionalidades exclusivas de membros
-- **US04** - Eu, como usuário logado, quero selecionar dois veículos ou mais, para comparar preços e especificações
-- **US05** - Como desenvolvedor, quero integrar a plataforma com a API da Tabela FIPE, para que os valores de referência dos veículos estejam disponíveis para comparação.
-- **US06** - Como administrador da plataforma, quero que os dados da Tabela FIPE sejam atualizados regularmente, para que as comparações de preços estejam sempre baseadas em informações recentes
-- **US07** - Como usuário da plataforma, quero que o sistema colete os preços dos veículos de diversas lojas online, para que eu possa compará-los com a Tabela FIPE
-- **US09** - Como usuário, quero comparar os preços dos veículos disponíveis com os valores da Tabela FIPE, para que eu possa tomar decisões de compra informadas
+- **US01** - Busca de veículos por filtros
+- **US13** - Cadastro de usuário
+- **US04** - Comparação de veículos
+- **US05** - Integração com tabela FIPE
+- **US06** - Atualização de valores de acordo com a FIPE
+- **US07** - Web scraping para coletar dados
+- **US09** - Comparação de preços com tabela FIPE
 
 ### Prioridade Média:
-- **US02** - Eu, como usuário logado, quero configurar alertas para ser notificado quando o preço de um veículo estiver abaixo do valor da tabela FIPE, para não precisar verificar constantemente a plataforma
-- **US03** - Eu, como usuário logado, quero adicionar veículos a minha lista de favoritos, assim poderei terei um lugar para verificar os veículos que gostei
-- **US12** - Como usuário logado, quero avaliar lojas de veículos, para ajudar outros usuários a tomarem decisões confiáveis ao escolherem onde comprar.
+- **US02** - Configuração de alertas de preço
+- **US03** - Adicionar veículos aos favoritos
+- **US12** - Avaliação de lojas
 
 ### Prioridade Baixa:
-- **US11** - Como usuário, quero visualizar veículos por categoria (pick-up, SUV, Sedan, Hatch, Elétrico...), A busca deve ser intuitiva com cards ou algo parecido para um clique rápido.
-- **US10** - Como administrador da plataforma, quero gerenciar os veículos cadastrados, para garantir que a plataforma tenha as informações relevantes dos veículos disponíveis
+- **US10** - Gerenciamento de veículos por administrador
+- **US11** - Busca de veículos por categoria
 
 ## 6. Refinamento de Histórias de Usuário
 
