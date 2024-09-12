@@ -175,3 +175,5 @@ Desenvolver uma plataforma que permita a busca e comparação de veículos novos
     - [Figma Design](https://www.figma.com/design/DG357tYR7C60tgSHbzx3LW/TCC---Grupo-05---Template?node-id=54-778&node-type=section&t=JGI0e26BLOXqzmQx-0)
 - **apicur.io:** Documentação de API usando Open API
     - [apicur.io API Documentation](https://studio.apicur.io/apis/111070)
+- **Lucid:** Cronograma
+    - [Cronograma](https://lucid.app/lucidchart/a2b3841f-596a-45eb-9275-373e0e1dcd19/edit?viewport_loc=-2138%2C-594%2C3328%2C1582%2C0_0&invitationId=inv_5a7c6119-cfc3-452d-8ee3-702a2bf55134)
