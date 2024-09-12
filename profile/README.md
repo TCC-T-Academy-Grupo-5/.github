@@ -177,3 +177,22 @@ Desenvolver uma plataforma que permita a busca e comparação de veículos novos
     - [apicur.io API Documentation](https://studio.apicur.io/apis/111070)
 - **Lucid:** Cronograma
     - [Cronograma](https://lucid.app/lucidchart/a2b3841f-596a-45eb-9275-373e0e1dcd19/edit?viewport_loc=-2138%2C-594%2C3328%2C1582%2C0_0&invitationId=inv_5a7c6119-cfc3-452d-8ee3-702a2bf55134)
+
+## 9. Disivão Geral de Tarefas
+- **Backend e integração com tabela FIPE:** Gabriel
+    - Responsável pela API da Tabela FIPE
+    - Web Scraping
+- **Frontend:** Emily
+    - Alertas
+    - Favoritos
+    - Integração com Backend
+    - Gráficos
+- **Gestão de usuários:** Paulo Henrique
+    - Cadastro de usuários
+    - Autenticação
+    - Autorização
+- **Gestão do projeto e qualidade:** Alex
+    - Gerenciamento das tarefas
+    - Versionamento
+    - Testes
+  
